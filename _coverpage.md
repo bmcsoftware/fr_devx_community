@@ -1,17 +1,21 @@
-<!-- _coverpage.md -->
+<div class="netflix-logo">
+  <div class="logo"></div>
+</div>
 
-![logo](_media/Logo.gif)
+![logo](assets/images/wordmark-logo-alt.png)
 
-# BMC FR DevX Community <small>1.0</small>
+> Record, replay, and stub HTTP interactions.
 
-[Annonces](https://github.com/bmcsoftware/fr_devx_community/discussions/categories/announcements)
-[Get Started](#quick-start)
+- 🚀 Node & Browser Support
+- ⚡️️ Simple, Powerful, & Intuitive API
+- 💎 First Class Mocha & QUnit Test Helpers
+- 🔥 Intercept, Pass-Through, and Attach Events
+- 📼 Record to Disk or Local Storage
+- ⏱ Slow Down or Speed Up Time
 
-<!-- background image -->
+<div class="buttons">
+  <a href="https://github.com/Netflix/pollyjs/" target="_blank"><span>GitHub</span></a>
+  <a href="#/README"><span>Get Started</span></a>
+</div>
 
-<!-- ![](_media/bg.png) -->
-
-<!-- background color -->
-
-<!-- ![color](#f0f0f0) -->
-
+![color](#052140)

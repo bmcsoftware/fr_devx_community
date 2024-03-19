@@ -1,4 +1,5 @@
 <!-- docs/_sidebar.md -->
 
-* [Home](/)
-* [Guide](guide.md)
+* [<div class="ps-icon ps-icon-arrow-right"></div> Home](/)
+* [Annonces](Annonces.md)
+* [Tips](Tips.md)

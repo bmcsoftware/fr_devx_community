@@ -1,5 +1,5 @@
 <!-- _navbar.md -->
 
-* Langues
-    * [Fr](/)
-    * [En](/zh-en/)
+* Liens Utiles
+    * [Support](/)
+    * [Documentation](/)
