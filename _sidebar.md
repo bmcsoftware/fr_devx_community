@@ -1,16 +1,14 @@
 <!-- docs/_sidebar.md -->
 
-- [Overview](/)
-- [Design](design.md)
-- [Tips](tips.md)
-- [Upgradeable](upgradeable.md)
-- [Migration to 4.x](migration.md)
-- API
-  - [ERC721A](erc721a.md)
-  - [ERC721ABurnable](erc721a-burnable.md)
-  - [ERC721AQueryable](erc721a-queryable.md)
-  - [ERC4907A](erc4907a.md)
-  - [Interfaces](interfaces.md)
+- [Accueil](/)
+- [Annonces](annonces.md)
+- [Tips](astuces.md)
+- Discussions
+  - [Liste](liste.md)
+  - [Sujet 1](sujet-1.md)
+  - [Sujet 2](sujet-2.md)
+  - [Sujet 3](sujet-3.md)
+  - [Archives](archives.md)
 - **Theme**
 <div id="theme">
 <div class="choice" name="light">
@@ -24,6 +22,7 @@
 	<div class="text">dark</div>
 </div></div>
 - **Links**
-  - [<div class="s0cial"><i class="icon-github-circled"></i>Github</div>](https://github.com/chiru-labs/ERC721A)
-  - [<div class="s0cial"><i class="icon-home"></i>Twitter</div>](https://twitter.com/Azuki)
-  <div class="copyright"><a href="https://www.chirulabs.com/" target="_blank" title="Chiru Labs">© Chiru Labs 2022</a></div>
+  - [<div class="s0cial"><i class="icon-github-circled"></i>Github</div>](https://github.com/bmcsoftware/fr_devx_community)
+  - [<div class="s0cial"><i class="icon-home"></i>BMC AMI DevX</div>](https://www.bmc.com/it-solutions/brands/bmc-ami.html)
+  - [<div class="s0cial"><i class="icon-home"></i>Support Central</div>](https://www.bmc.com/support/support-central.html)
+  <div class="copyright"><a href="https://www.bmc.com/" target="_blank" title="BMC">© BMC 2024</a></div>
