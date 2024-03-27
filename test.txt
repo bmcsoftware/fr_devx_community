@@ -1,0 +1,33 @@
+* Vite Press alternative
+
+* Pour lancer le serveur local :
+
+docsify serve c:\users\xeraso\git\fr_devx_community
+
+* Des pages docsify intéressantes :
+
+    - https://netflix.github.io/pollyjs/#/ (style soigné)
+    - https://ned.im/noty/#/ (les icones)
+    - https://lhammer.cn/You-need-to-know-css/#/ (Ca peut servir)
+    - https://www.apolloconfig.com/#/en/ (Chat AI)
+    - https://gadhagod.github.io/Hyrule-Compendium-API/#/ (Pour gestion dark theme) 
+    - https://chiru-labs.github.io/ERC721A/#/ (Meilleure gestion dark theme)
+    - https://adrien2p.github.io/medusa-extender/#/ (Encore gestion dark theme)
+
+
+
+* Pour avoir une icone dans l'onglet :
+
+<head>
+  ...
+  <link rel="shortcut icon" href="https://raw.githubusercontent.com/hagay3/skuber/master/docs/favicon.png" type="image/png" sizes="16x16">
+  ...
+</head>
+
+
+* Plugins utiles :
+
+- https://github.com/Plugin-contrib/docsify-plugin/tree/master/packages/docsify-top-banner-plugin (Gestion de bannière)
+- https://github.com/Plugin-contrib/docsify-plugin/tree/master/packages/docsify-dark-mode (Gestion dark mode)
+- https://github.com/jperasmus/docsify-copy-code (Copie de blocs de code)
+- 

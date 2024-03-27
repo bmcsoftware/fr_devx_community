@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Document</title>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+  <meta name="description" content="Description">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
+  <link rel="stylesheet" href="//unpkg.com/docsify-themeable@0.8.6/dist/css/theme-simple.css" crossorigin="anonymous"/>
+  <link rel="stylesheet" href="_assets/prism-theme.css"/>
+</head>
+<body>
+  <div id="app"></div>
+  <script type="text/javascript">
+    window.$docsify = {
+      name: 'Fr DevX Community',
+      repo: 'https://github.com/bmcsoftware/fr_devx_community',
+      auto2top: true,
+      coverpage: true,
+      executeScript: true,
+      loadSidebar: true,
+      loadNavbar: true,
+      mergeNavbar: true,
+      maxLevel: 4,
+      subMaxLevel: 2,
+    gitalk: {
+      clientID: 'a64c1d3f4a641ccec9b7',
+      clientSecret: '046e85d3c195262f44a477d1ab8b908163e639d7',
+      repo: 'fr_devx_community',
+      owner: 'bmcsoftware',
+      admin: [
+        'xerasox'
+      ],
+      // facebook-like distraction free mode
+      distractionFreeMode: false},
+    search: {
+      depth: 3,
+		  noData: 'No results!',
+		  placeholder: 'Search...'
+      },
+	  themeable: {
+      readyTransition : false,
+      responsiveTables: true
+	    }
+    }
+  </script>
+  <!-- Docsify v4 -->
+  <script src="//unpkg.com/docsify@4.12.2/lib/docsify.min.js"></script>
+  <!-- Theme -->  
+  <script src="//unpkg.com/docsify-themeable@0.8.6"></script>
+  <!-- Search -->
+  <script src="//unpkg.com/docsify@4.12.2/lib/plugins/search.js"></script>
+  <!-- Dark Mode -->
+  <script src="//unpkg.com/darkreader@4.9.34"></script>
+  <!-- Pagination -->
+  <script src="//unpkg.com/docsify-pagination/dist/docsify-pagination.min.js"></script>
+  <!-- Highlight -->
+  <script src="//cdn.jsdelivr.net/npm/prismjs@1/components/prism-cobol.min.js"></script>
+  <script src="//cdn.jsdelivr.net/npm/prismjs@1/components/prism-markup.min.js"></script>
+  <script src="//cdn.jsdelivr.net/npm/prismjs@1/components/prism-sql.min.js"></script>
+  <script src="//cdn.jsdelivr.net/npm/prismjs@1/components/prism-ini.min.js"></script>
+  <script src="//cdn.jsdelivr.net/npm/prismjs@1/components/prism-json.min.js"></script>
+  <!-- GitTalk评论 -->
+  <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/gitalk/dist/gitalk.css">
+  <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/gitalk.min.js"></script>
+  <script src="//cdn.jsdelivr.net/npm/gitalk/dist/gitalk.min.js"></script>
+  <script src="https://unpkg.com/docsify-gitalk@1.0.0/dist/docsify-gitalk.min.js"></script>
+  <!-- Theme -->
+  <script type="text/javascript">
+    (function () {
+      var smoothScroll = function (scrollFrom, scrollTo, duration) {
+        var timePassed = 0, step = 15, interval, tick = function () {
+          if (timePassed >= duration) {
+            window.scrollTo(0, scrollTo);
+            clearInterval(interval);
+          } else {
+            window.scrollTo(0, scrollFrom + ~~((scrollTo - scrollFrom) * (timePassed / duration)));
+          }
+          timePassed += step;
+        };
+        tick();
+        interval = setInterval(tick, step);
+      }, t, r, y, clickCallback = function (e) {
+        for (t = e.target; t; t = t.parentElement) {
+          if ((t.tagName.toUpperCase() == 'A') && 
+            (r = t.getAttribute('href')) && 
+            (r = (''+r).match('#(.*)')) &&
+            (window.location.hash == r[0]) &&
+            (r = r[0].match(/\?id=(.+?)$/)) &&
+            (t = document.querySelector('#'+r[1].toLowerCase()))
+          ) {
+            y = t.getBoundingClientRect().top, yo = window.pageYOffset;
+            smoothScroll(yo, y + yo, 300);
+            return;	
+          }
+        }
+      };
+      document.addEventListener('click', clickCallback);
+    })();
+    // Solidity syntax highlighting via Prism. 
+    Prism.languages.solidity=Prism.languages.extend("clike",{"class-name":{pattern:/(\b(?:contract|enum|interface|library|new|struct|using)\s+)(?!\d)[\w$]+/,lookbehind:!0},keyword:/\b(?:_|anonymous|as|assembly|assert|break|calldata|case|constant|constructor|continue|contract|default|delete|do|else|emit|enum|event|external|for|function|if|import|indexed|inherited|interface|internal|is|let|library|mapping|memory|modifier|new|payable|pragma|private|public|pure|require|returns?|revert|selfdestruct|solidity|storage|struct|suicide|switch|this|throw|using|var|view|while)\b/,operator:/=>|->|:=|=:|\*\*|\+\+|--|\|\||&&|<<=?|>>=?|[-+*/%^&|<>!=]=?|[~?]/}),Prism.languages.insertBefore("solidity","keyword",{builtin:/\b(?:address|bool|byte|u?int(?:8|16|24|32|40|48|56|64|72|80|88|96|104|112|120|128|136|144|152|160|168|176|184|192|200|208|216|224|232|240|248|256)?|string|bytes(?:[1-9]|[12]\d|3[0-2])?)\b/}),Prism.languages.insertBefore("solidity","number",{version:{pattern:/([<>]=?|\^)\d+\.\d+\.\d+\b/,lookbehind:!0,alias:"number"}}),Prism.languages.sol=Prism.languages.solidity;
+    // Dark mode via darkreader.
+    var exponentialWait = function (callback, startDelay, multiplier) {
+      var delay = startDelay || 30;
+      var waiter = function () {
+        if (!callback()) {
+          delay *= (multiplier || 2);
+          setTimeout(waiter, delay);
+        }
+      };
+      waiter();
+    };
+    var setupTheme = function () {
+      DarkReader.setFetchMethod(window.fetch);
+      var lsThemeKey = 'erc721a_theme';
+      var getLsTheme = function () { 
+        return window.localStorage.getItem(lsThemeKey) 
+      };
+      var setLsTheme = function (name) { 
+        window.localStorage.setItem(lsThemeKey, name) 
+      };
+      var drSettings = { 
+        brightness: 100, 
+        contrast: 100, 
+        sepia: 0 
+      };
+      var getChoiceEl = function (name) {
+        return document.querySelector('#theme .choice[name=' + name + ']');
+      };
+      var currentTheme = 0;
+      var getChoiceEls = function () {
+        return document.querySelectorAll('#theme .choice');
+      };
+      var setElActive = function (el, active) {
+        if (!el) return;
+        if (active) {
+          el.className += ' active';	
+        } else {
+          el.className = el.className.replace(/\s+active\s*/, '');
+        }
+      };
+      var setOnlyChoiceActive = function (name) {
+        var a = getChoiceEls();
+        for (var i = 0; i < a.length; ++i) {
+          setElActive(a[i], 0);
+        }
+        setElActive(getChoiceEl(name), 1);
+      };
+      var themeActivate = function (name, forceRefresh) {
+        setOnlyChoiceActive(name);
+        if (currentTheme == name && !forceRefresh) return;
+        if (name == 'light') DarkReader.disable();
+        if (name == 'auto') DarkReader.auto(drSettings);
+        if (name == 'dark') DarkReader.enable(drSettings);
+        setLsTheme(currentTheme = name);
+      };
+      var reloadTheme = function (forceRefresh) { 
+        themeActivate(getLsTheme() || 'auto', forceRefresh);
+      };
+      var delayedReloadTheme = function () {
+        setTimeout(function () {
+          exponentialWait(function () {
+            if (document.querySelector('.markdown-section h1')) {
+              setTimeout(function () { reloadTheme(1) }, 60);
+              return true;
+            }
+          });
+        }, 800);
+      };
+      var reloadChoices = function () {
+        var setClick = function (name) {
+          getChoiceEl(name).onclick = function () { 
+            themeActivate(name);
+            delayedReloadTheme();
+          };	
+        };
+        setClick('light');
+        setClick('auto');
+        setClick('dark');
+        reloadTheme();
+      };
+      exponentialWait(function () {
+        if (getChoiceEls().length > 0) {
+          reloadChoices();
+          setInterval(function () {
+            if (!document.querySelector('#theme .choice').onclick) 
+              reloadChoices();
+          }, 500);
+          delayedReloadTheme();
+          return true;
+        }
+      });
+      reloadTheme();
+    };
+    if (window.fetch) {
+      setupTheme();
+    }
+    exponentialWait(function () {
+      var searchInput = document.querySelector('.sidebar .search input');
+      if (searchInput) {
+        var searchInputWrap = document.querySelector('.sidebar .search .input-wrap');
+        searchInput.addEventListener('focus', function () {
+          searchInputWrap.className += ' focus';
+        });
+        searchInput.addEventListener('blur', function () {
+          searchInputWrap.className = searchInputWrap.className.replace(/\s+focus\s*/, '');
+        });	
+        return true;
+      }
+    });
+    </script>
+</body>
+</html>
