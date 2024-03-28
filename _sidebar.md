@@ -4,7 +4,7 @@
   - [Accueil](/)
   - [Annonces](annonces.md)
   - [Astuces](astuces.md)
-  - [Idéées](idees.md)
+  - [Idées](idees.md)
 - **<div class="s0cial"><i class="icon-home"></i>Discussions</div>**
   - [Liste des Sujets](liste.md)
   - [Sujet 1](sujet-1.md)
