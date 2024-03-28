@@ -1,9 +1,11 @@
 <!-- docs/_sidebar.md -->
 
-- [Accueil](/)
-- [Annonces](annonces.md)
-- [Tips](astuces.md)
-- <div class="s0cial"><i class="icon-home"></i>Discussions</div>
+- **<div class="s0cial"><i class="icon-home"></i>General</div>**
+  - [Accueil](/)
+  - [Annonces](annonces.md)
+  - [Astuces](astuces.md)
+  - [Idéées](idees.md)
+- **<div class="s0cial"><i class="icon-home"></i>Discussions</div>**
   - [Liste des Sujets](liste.md)
   - [Sujet 1](sujet-1.md)
   - [Sujet 2](sujet-2.md)
@@ -21,7 +23,7 @@
 	<div class="icon"><i class="icon-moon"></i></div>
 	<div class="text">dark</div>
 </div></div>
-- **Links**
+- **Liens**
   - [<div class="s0cial"><i class="icon-github-circled"></i>Github</div>](https://github.com/bmcsoftware/fr_devx_community)
   - [<div class="s0cial"><i class="icon-home"></i>BMC AMI DevX</div>](https://www.bmc.com/it-solutions/brands/bmc-ami.html)
   - [<div class="s0cial"><i class="icon-home"></i>Support Central</div>](https://www.bmc.com/support/support-central.html)
