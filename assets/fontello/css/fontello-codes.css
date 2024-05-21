@@ -1,5 +1,6 @@
 
 .icon-th-large:before { content: '\e800'; } /* '' */
+.icon-star-empty:before { content: '\e801'; } /* '' */
 .icon-tags:before { content: '\e802'; } /* '' */
 .icon-github-circled:before { content: '\e803'; } /* '' */
 .icon-chat:before { content: '\e804'; } /* '' */
