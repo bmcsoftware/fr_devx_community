@@ -1,0 +1,5 @@
+name: BMC auto-created zapp file
+version: 4.2.0
+description: Temporary zapp file used for BMC AMI DevX extensions.
+author: BMC
+propertyGroups: []
