@@ -2,6 +2,8 @@
 
 ?>[AMI DevX](https://community.bmc.com/s/topic/0TO3n000000FWZmGAO/bmc-ami-devx?tabset-19d80=812de) | [Abend-AID](https://community.bmc.com/s/topic/0TO3n000000RjuQGAS/bmc-ami-devx-abendaid) | [DevEnterprise](https://community.bmc.com/s/topic/0TO3n000000RjuRGAS/bmc-ami-devx-deventerprise) | [File-AID](https://community.bmc.com/s/topic/0TO3n000000RjuSGAS/bmc-ami-devx-fileaid) | [Code Pipeline](https://community.bmc.com/s/topic/0TO3n000000RjuTGAS/bmc-ami-devx-code-pipeline) | [Workbench for Eclipse](https://community.bmc.com/s/topic/0TO3n000000RjuVGAS/bmc-ami-devx-workbench-for-eclipse) | [Workbench for VS Code](https://community.bmc.com/s/topic/0TO3n000000SYbcGAG/bmc-ami-devx-workbench-for-vs-code) | [Code Debug](https://community.bmc.com/s/topic/0TO3n000000RjuWGAS/bmc-ami-devx-code-debug) | [zAdviser](https://community.bmc.com/s/topic/0TO3n000000RjuXGAS/bmc-ami-zadviser?tabset-19d80=812de)
 
+Pour proposer des idées et co-construire des idées avec la communauté : [Idées de la communauté](https://github.com/bmcsoftware/fr_devx_community/discussions/categories/ideas)
+
 ## Liste des Idées Actives
 
 ?>Dernière mise à jour 03/04/2024
