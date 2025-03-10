@@ -13,10 +13,8 @@ Pour proposer des idées et co-construire des idées avec la communauté : [Idé
 | Titre  | Description | Votes | Statut | Date de Création |
 |:-|:-|:-:|:-:|:-:|
 | [CWDDALLU: provide a fix for interoperability with multi-volume SMS storage class](https://community.bmc.com/s/idea/087cx000001QlvZAAS/detail) | I request a fix to enable interoperability of CWDDALLU (EXPORT/DIRS/IMPORT - reports & source listings) with a multi-volume SMS storage class.
-
 Even though a dataset may span up to 20 volumes due to their multi-volume SMS storage class, they usually only span a single volume, but there have been cases where a dataset has been split across two volumes... | 3 | New | 02/12/2024 |
 | [CWDDALLU/IMPORT/TODD Provide a way to keep/reuse the allocates of the databases](https://community.bmc.com/s/idea/087Kj0000001Lj1IAE/detail) | I request a way to keep/reuse the allocates of the databases without them being freed/reallocated during each import command.
-
 On z/OS, when a dynamic database allocation is performed at a JCL step, the JESYSMSG trace includes one IGD103I line and one IGD104I line... | 2 | Declined | 22/08/2024 |
 | [Use of Abend-Aid/Xpediter on a program whose source listing is in DWARF format](https://community.bmc.com/s/idea/087Kj0000001LT3IAM/detail) | The Cobol compiler is now able to produce a "source listing in Dwarf format", a format widely used under UNIX.
 The dwarf format may be put in a PDSE.
