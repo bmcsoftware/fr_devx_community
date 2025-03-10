@@ -10,7 +10,7 @@ Pour proposer des idées et co-construire des idées avec la communauté : [Idé
 
 ### DevX
 
-| Titre  | Description | Votes | Statut | Date de Création |
+| Titre | Description | Votes | Statut | Date de Création |
 |:-|:-|:-:|:-:|:-:|
 | [CWDDALLU: provide a fix for interoperability with multi-volume SMS storage class](https://community.bmc.com/s/idea/087cx000001QlvZAAS/detail) | I request a fix to enable interoperability of CWDDALLU (EXPORT/DIRS/IMPORT - reports & source listings) with a multi-volume SMS storage class.<br><br> Even though a dataset may span up to 20 volumes due to their multi-volume SMS storage class, they usually only span a single volume, but there have been cases where a dataset has been split across two volumes... | 3 | New | 02/12/2024 |
 | [CWDDALLU/IMPORT/TODD Provide a way to keep/reuse the allocates of the databases](https://community.bmc.com/s/idea/087Kj0000001Lj1IAE/detail) | I request a way to keep/reuse the allocates of the databases without them being freed/reallocated during each import command. <br><br>On z/OS, when a dynamic database allocation is performed at a JCL step, the JESYSMSG trace includes one IGD103I line and one IGD104I line... | 2 | Declined | 22/08/2024 |
@@ -20,7 +20,7 @@ Pour proposer des idées et co-construire des idées avec la communauté : [Idé
 
 ### Abend-AID
 
-| Titre  | Description | Votes | Statut | Date de Création |
+| Titre | Description | Votes | Statut | Date de Création |
 |:-|:-|:-:|:-:|:-:|
 | [AbendAID Webhook - enhance visibility](https://community.bmc.com/s/idea/087cx000002M5j3AAC/detail) | Actually, when you create a webhook for abend-aid, it's impossible to know on when lpar is linked.<br> If it's activated or if it's attached to multiples lpar <br><br>It's need to have a better way to manage abend-aid webhook. Actually, it's too poor to manage it correctly | 1 | In-Plan (18 Months) | 05/03/2025 |
 | [Abend-AID webhook - trap all duplicate (dup deleted also)](https://community.bmc.com/s/idea/087Kj0000001LmUIAU/detail) | If you have activated the delete duplicate in abend-aid (you didn't need to have a report each time the same abend occur) and you want to have an abend-aid webhook triggered, it's impossible, actually. You need to keep all the abend-aid report and didn't remove the duplicate. <br><br>As, if you have a duplicate, the abend-aid report block you have in the jes ouput point to the first report, for me, it's also possible to have a webhook triggered. | 1 | New | 04/09/2024 |
@@ -36,10 +36,10 @@ Pour proposer des idées et co-construire des idées avec la communauté : [Idé
 
 ### DevEnterprise
 
-| Titre  | Description | Votes | Date de Création |
-|:-|:-|:-:|:-:|
-| [HCI PURGE is not precise](https://community.bmc.com/s/idea/0873n000000TfGHAA0/detail) | When you use HCI PURGE,ENQ=[PDS], you can't specify a specific member.<br> At the end, when you have only one file blocked, you "kill" all the enqueue on all the opened file in this PDS.<br><br> Can you add 2 possiiblities:<br> 1. PURGE ENQ=SOMETING(FILE) <br> 2.PURGE USER=USERID. <br><br>First one to purge an enqueue on a specific file. <br>Second one to purge all the enqueue for a specific user | 4 | 21/10/2020 | 
-| [Modernize DevEnterprise GUI](https://community.bmc.com/s/idea/0873n000000Tf0JAAS/detail) | DevEnterprise has a very old GUI. It's not very effective and completely outside all the other Compuware ecosystem. Can you provide a Topaz perspective for this tools, and modernize the look and feel. | 4 | 11/12/2019 | 
+| Titre  | Description | Votes | Statut | Date de Création |
+|:-|:-|:-:|:-:|:-:|
+| [HCI PURGE is not precise](https://community.bmc.com/s/idea/0873n000000TfGHAA0/detail) | When you use HCI PURGE,ENQ=[PDS], you can't specify a specific member.<br> At the end, when you have only one file blocked, you "kill" all the enqueue on all the opened file in this PDS.<br><br> Can you add 2 possiiblities:<br> 1. PURGE ENQ=SOMETING(FILE) <br> 2.PURGE USER=USERID. <br><br>First one to purge an enqueue on a specific file. <br>Second one to purge all the enqueue for a specific user | 4 | Active | 21/10/2020 | 
+| [Modernize DevEnterprise GUI](https://community.bmc.com/s/idea/0873n000000Tf0JAAS/detail) | DevEnterprise has a very old GUI. It's not very effective and completely outside all the other Compuware ecosystem. Can you provide a Topaz perspective for this tools, and modernize the look and feel. | 4 | Not Planned (18 Months) | 11/12/2019 | 
 
 ### File-AID
 
