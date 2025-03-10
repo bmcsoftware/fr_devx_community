@@ -8,7 +8,7 @@ Bienvenue dans la communauté DevX France, un espace privilégié de partage et 
 
 ## Comment participer ?
 
-La commaunauté est ouverte à tous les utilisateurs des solutions BMC AMI DevX. Pour participer, il faut disposer d'un identifiant GitHub et rejoindre l'organisation BMC Software en tant que membre. A noter qu'il n'est pas possible d'intéragir directement avec les pages GitHub, elles permettent uniquement d'exposer de façon synthétique les informations les plus pertinentes du moment. **Les membres doivent utiliser la section "Discussions" du dépôt GitHub (cf. Copie d'écran) pour intéragir au sein de la communauté.**
+La commaunauté est ouverte à tous les utilisateurs des solutions BMC AMI DevX. Pour participer, il suffit de disposer d'un identifiant GitHub. A noter qu'il n'est pas possible d'intéragir directement avec les pages GitHub, elles permettent uniquement d'exposer de façon synthétique les informations les plus pertinentes du moment. **Les membres doivent utiliser la section "Discussions" du dépôt GitHub (cf. Copie d'écran) pour intéragir au sein de la communauté.**
 
 ![image](_media/Accueil/Discussions.png)
 
